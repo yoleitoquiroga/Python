@@ -13,7 +13,7 @@ print(f"Armando's favourite language is {language}.")
 print("\nWe have an exciting data base about peoples' favourites languages!".title())
 name=input("\nEnter the name of your interest: ").lower()
 if name in fav_language:
-    print(f"{name.title().rstrip()}'s favourite language is {fav_language[name]}.")
+    print(f"{name.title().rstrip()}'s favourite language is {fav_language[name]}.".title())
 else:
     print(f"I'm really sorry but {name.title().rstrip()} is not registered in our database.")
 #both methods will print the keys, the difference is hot the information will be presented.
