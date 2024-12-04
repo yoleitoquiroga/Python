@@ -37,6 +37,7 @@ for key, value in users.items():
         print(f'Age: {value['age']}')
         print(f'date of birth: {value['dob']}'.title())
         print(f'nationality: {value['nationality']}'.title())
+        break
     else:  
         print(f'The name {name.title()} is not registered.')
 
