@@ -38,8 +38,8 @@ for key, value in users.items():
         print(f'date of birth: {value['dob']}'.title())
         print(f'nationality: {value['nationality']}'.title())
         break
-    else:  
-        print(f'The name {name.title()} is not registered.')
+else:  
+    print(f'The name {name.title()} is not registered.')
 
 
 #for username, user_info in users.items():#assigning variables for key and values.
