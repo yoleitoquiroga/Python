@@ -20,13 +20,14 @@ while active:
         active = False
         break
     if name not in fav_language:
-        print(f"\nI'm really sorry but {name.title().rstrip()} is not registered 
-        in our database.") #input does not match dictionary content. Loops back to input.
+        print(f"\nI'm really sorry but {name.title().rstrip()} is not registered in our database.") #input does not match dictionary content. Loops back to input.
     
     else:
         print(f"{name.title().rstrip()}'s favourite language is {fav_language[name]}.".title())
         #once condition has been met, program ends
-        active = False #this flag will cause the program tio end (optional)
+        
+        #active = False #this flag will cause the program to end (optional)
+        
         #depending on the requierements of the program this one will end or not.
 
        
